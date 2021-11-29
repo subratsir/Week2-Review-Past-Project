@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>subrat&ridwan</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+  <div id="container">
+    <div id="header">
+       <h1 id="title">freeCodeCamp Survey Form Survey Form</h1>
+       <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+    </div>
+ 
+
+  <form id="survey-form">
+    <div class="form-control">
+      <label id="name-label"><strong>Name</strong></label>
+      <input class="input" type="text" placeholder="Enter your name" name="name" id="name"  required>
+    </div>
+    <div class="form-control">
+      <label id="email-label"><Strong>Email</Strong></label>
+      <input  class="input"  type="email" placeholder="Enter your email"  name="email" id="email"  required>
+    </div>
+    <div class="form-control">
+      <label id="number-label"><strong>Age (optional)</strong></label>
+      <input  class="input"  type="number" placeholder="Enter your age"  name="age" id="number" min="10" max="100" required>
+    </div>
+    <div class="form-control">
+      <label for="Dropdown">Dropdown options:</label>
+      <select name="Dropdown" id="dropdown">
+        <option disabled="" selected="" value="">Select an option</option>
+        <option value="option1">Dropdown Option 1</option>
+        <option value="option2">Dropdown Option 2</option>
+        <option value="option3">Dropdown Option 3</option>
+        <option value="option4">Dropdown Option 4</option>
+      </select>  
+    </div>  
+    <div class="form-control form-inline">
+      <h2>Radio Options :</h2>
+      <input type="radio" id="age1" name="age" value="30">
+      <label for="option1">Radio option 1</label><br>
+      <input type="radio" id="age2" name="age" value="60">
+      <label for="option2">Radio option 2</label><br>  
+      <input type="radio" id="age3" name="age" value="100">
+      <label for="option3">Radio option 3</label><br><br>
+    </div>  
+    <div class="form-control form-inline-box">
+      <h2>Check Boxes</h2>
+      <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+      <label for="checkbox1"> Checkbox Option 1</label><br>
+      <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+      <label for="checkbox2"> checkbox Option 2</label><br>
+      <input type="checkbox" id="vehicle3" name="checkbox3" value="checkbox3">
+      <label for="checkbox3"> checkbox Option 3</label><br><br>    
+    </div>
+  
+    <div class="form-control" id="text-div">
+      <p>aditional comments:</p>
+      <textarea placeholder="Write your message here" id="message" cols="90" rows="15"></textarea>
+    </div>
+    <div class="form-control" id="submit-div">
+  <button id="submit">submit</button>
+    </div>
+  
+  </form>
+  </div>
+      
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
